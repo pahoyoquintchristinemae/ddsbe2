@@ -27,6 +27,8 @@ $app->withFacades();
 
 $app->withEloquent();
 
+//added code
+$app->configure('database');
 /*
 |--------------------------------------------------------------------------
 | Register Container Bindings
